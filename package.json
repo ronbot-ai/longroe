@@ -1,0 +1,23 @@
+{
+  "name": "longroe",
+  "version": "1.0.0",
+  "description": "web developer agency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "bootstrap",
+    "css3",
+    "php"
+  ],
+  "author": "douglas kiprono",
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.1",
+    "bootstrap-icons": "^1.9.1",
+    "swiper": "^8.4.2"
+  }
+}
