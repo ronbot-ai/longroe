@@ -1,4 +1,4 @@
-# longroe
+# longroe inc
 ## web developer agency website
 <p>
 work in progress</p>
