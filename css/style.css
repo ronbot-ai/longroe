@@ -520,9 +520,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Why Us
---------------------------------------------------------------*/
+
 .why-us .box {
   padding: 50px 30px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -558,9 +556,7 @@ section {
 }
 
 
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
+
 .specials {
   overflow: hidden;
 }
@@ -1172,7 +1168,7 @@ section {
 }
 #footer .footer-top .footer-newsletter form input[type=submit] {
   position: absolute;
-  top: -1px;
+  top: -5px;
   right: -1px;
   bottom: -1px;
   border: 0;
