@@ -882,16 +882,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# faq
 --------------------------------------------------------------*/
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.faq .faq-carousel, .faq .faq-slider {
   overflow: hidden;
 }
-.testimonials .testimonial-item {
+.faq .testimonial-item {
   box-sizing: content-box;
   min-height: 320px;
 }
-.testimonials .testimonial-item .testimonial-img {
+.faq .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50%;
   margin: -40px 0 0 40px;
@@ -899,33 +899,33 @@ section {
   z-index: 2;
   border: 6px solid rgba(255, 255, 255, 0.2);
 }
-.testimonials .testimonial-item h3 {
+.faq .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
   color: white;
 }
-.testimonials .testimonial-item h4 {
+.faq .testimonial-item h4 {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.6);
   margin: 0 0 0 45px;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.faq .testimonial-item .quote-icon-left, .faq .testimonial-item .quote-icon-right {
   color: #d3af71;
   font-size: 26px;
 }
-.testimonials .testimonial-item .quote-icon-left {
+.faq .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
-.testimonials .testimonial-item .quote-icon-right {
+.faq .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
-.testimonials .testimonial-item p {
+.faq .testimonial-item p {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
@@ -935,17 +935,17 @@ section {
   position: relative;
   z-index: 1;
 }
-.testimonials .swiper-pagination {
+.faq .swiper-pagination {
   margin-top: 30px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.faq .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.4);
   opacity: 1;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.faq .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
 
@@ -965,16 +965,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Chefs
+# our-team
 --------------------------------------------------------------*/
-.chefs .member {
+.our-team .member {
   text-align: center;
   margin-bottom: 20px;
   background: #343a40;
   position: relative;
   overflow: hidden;
 }
-.chefs .member .member-info {
+.our-team .member .member-info {
   opacity: 0;
   position: absolute;
   bottom: 0;
@@ -983,26 +983,26 @@ section {
   right: 0;
   transition: 0.2s;
 }
-.chefs .member .member-info-content {
+.our-team .member .member-info-content {
   position: absolute;
   left: 0;
   right: 0;
   bottom: 10px;
   transition: bottom 0.4s;
 }
-.chefs .member .member-info-content h4 {
+.our-team .member .member-info-content h4 {
   font-weight: 700;
   margin-bottom: 2px;
   font-size: 18px;
   color: #fff;
 }
-.chefs .member .member-info-content span {
+.our-team .member .member-info-content span {
   font-style: italic;
   display: block;
   font-size: 13px;
   color: #fff;
 }
-.chefs .member .social {
+.our-team .member .social {
   position: absolute;
   left: 0;
   bottom: -38px;
@@ -1011,29 +1011,29 @@ section {
   transition: bottom ease-in-out 0.4s;
   text-align: center;
 }
-.chefs .member .social a {
+.our-team .member .social a {
   transition: color 0.3s;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
 }
-.chefs .member .social a:hover {
+.our-team .member .social a:hover {
   color: #cda45e;
 }
-.chefs .member .social i {
+.our-team .member .social i {
   font-size: 18px;
   margin: 0 2px;
 }
-.chefs .member:hover .member-info {
+.our-team .member:hover .member-info {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
   opacity: 1;
   transition: 0.4s;
 }
-.chefs .member:hover .member-info-content {
+.our-team .member:hover .member-info-content {
   bottom: 60px;
   transition: bottom 0.4s;
 }
-.chefs .member:hover .social {
+.our-team .member:hover .social {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }
